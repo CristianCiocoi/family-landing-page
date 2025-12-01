@@ -6,9 +6,10 @@ A modern, responsive landing page template for plastering and construction busin
 
 - 📱 Fully responsive design (mobile, tablet, desktop)
 - 🌍 Multi-language support (English & Russian)
+- 🖼️ **Ready-to-use with online placeholder images** - works immediately!
 - 🎨 Modern UI/UX with smooth animations
-- 🖼️ Portfolio/gallery section
-- ⭐ Customer testimonials showcase
+- 🖼️ Portfolio/gallery section with beautiful sample images
+- ⭐ Customer testimonials showcase with avatar placeholders
 - 📞 Multiple contact methods (Phone, WhatsApp, Telegram, Email)
 - 📝 Contact form ready for integration
 - 🛠️ Services showcase section
@@ -42,10 +43,10 @@ A modern, responsive landing page template for plastering and construction busin
 ## 🚀 Quick Start
 
 1. **Clone or download** this repository
-2. **Replace placeholder images** with your own (see ASSETS-NEEDED.md for details)
+2. **Open `index.html`** in your browser - the site works right away with online placeholder images!
 3. **Update contact information** in `index.html` (search for "PLACEHOLDER" comments)
 4. **Customize colors** in `styles.css` to match your brand
-5. **Test locally** by opening `index.html` in your browser
+5. **Replace placeholder images** with your own when ready (see ASSETS-NEEDED.md for details)
 6. **Deploy** to GitHub Pages (see deployment section below)
 
 > ⚠️ **Security Note**: Never commit sensitive information (API keys, private credentials, etc.) to your repository. All placeholder contact info in this template is clearly marked and should be replaced with your actual information only after customization.

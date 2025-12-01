@@ -2,15 +2,18 @@
 
 This document lists all the visual assets you need to prepare for your landing page.
 
+> ✨ **Good News!** The template already includes online placeholder images from free services (Unsplash, Placeholder.com, Pravatar), so your site looks complete right away. You can replace these with your own images when ready.
+
 ## 🎨 Branding Assets
 
 ### 1. Company Logo
 
-- **Filename**: `placeholder-logo.png`
+- **Current**: Using Placeholder.com logo (online)
 - **Recommended size**: 200x50px (or maintain this aspect ratio)
 - **Format**: PNG with transparent background
 - **Usage**: Navigation bar, visible on all pages
 - **Description**: Your business logo with clear visibility at small sizes
+- **To replace**: Update the `src` attribute in the logo `<img>` tag in HTML files
 
 ---
 
@@ -193,6 +196,52 @@ Before adding images to your site:
    - Portfolio images: < 300KB each
    - Logo: < 50KB
    - Other images: < 200KB each
+
+---
+
+## 🌐 Current Placeholder Images (Already Included)
+
+Your landing page already includes placeholder images from these free services:
+
+### Logo
+
+- **Source**: Placeholder.com
+- **URL**: `https://via.placeholder.com/200x50/3498db/ffffff?text=Premium+Plaster`
+- **Type**: Generated placeholder with text
+
+### Hero Background
+
+- **Source**: Unsplash (construction/building interior)
+- **URL**: `https://images.unsplash.com/photo-1581578731548-c64695cc6952`
+- **Credit**: Free to use under Unsplash License
+
+### Tools/Equipment Image
+
+- **Source**: Unsplash (construction tools)
+- **URL**: `https://images.unsplash.com/photo-1504148455328-c376907d081c`
+- **Credit**: Free to use under Unsplash License
+
+### Portfolio Images (6 images)
+
+1. Modern interior - `https://images.unsplash.com/photo-1616486338812-3dadae4b4ace`
+2. Building exterior - `https://images.unsplash.com/photo-1541888946425-d81bb19240f5`
+3. Home interior - `https://images.unsplash.com/photo-1600607687939-ce8a6c25118c`
+4. Office space - `https://images.unsplash.com/photo-1497366216548-37526070297c`
+5. Luxury home - `https://images.unsplash.com/photo-1600585154340-be6161a56a0c`
+6. Restaurant - `https://images.unsplash.com/photo-1517248135467-4c7edcad34c4`
+
+**All from Unsplash** - Free to use under Unsplash License
+
+### Client Avatars (3 images)
+
+- **Source**: Pravatar.cc (generated avatar placeholders)
+- **URLs**:
+  - `https://i.pravatar.cc/150?img=12`
+  - `https://i.pravatar.cc/150?img=45`
+  - `https://i.pravatar.cc/150?img=33`
+- **Type**: Generic placeholder avatars
+
+> **Note**: These placeholder images make your site look professional immediately. Replace them with your own photos when ready by updating the `src` attributes in the HTML files.
 
 ---
 
