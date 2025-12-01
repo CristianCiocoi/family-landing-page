@@ -1,2 +1,40 @@
+# Project context (not needed for public repo)
 landing-page-context.md
-ASSETS-NEEDED.md
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.log
+*.tmp
+
+# Environment files (if you add backend integration)
+.env
+.env.local
+.env.*.local
+
+# Personal notes and private content
+notes.txt
+todo.txt
+private/
+
+# Your actual images (you may want to keep placeholders but not your real photos)
+# Uncomment these if you want to keep your real images private:
+# hero-background.jpg
+# placeholder-logo.png
+# placeholder-tools.jpg
+# placeholder-project-*.jpg
+# placeholder-client-*.jpg
