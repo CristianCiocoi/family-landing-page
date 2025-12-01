@@ -5,6 +5,7 @@ A modern, responsive landing page template for plastering and construction busin
 ## ✨ Features
 
 - 📱 Fully responsive design (mobile, tablet, desktop)
+- 🌍 Multi-language support (English & Russian)
 - 🎨 Modern UI/UX with smooth animations
 - 🖼️ Portfolio/gallery section
 - ⭐ Customer testimonials showcase
@@ -27,11 +28,15 @@ A modern, responsive landing page template for plastering and construction busin
 ## 📦 What's Included
 
 ```
-├── index.html          # Main HTML structure
-├── styles.css          # All styling and responsive design
-├── script.js           # Interactive functionality
-├── README.md           # Documentation
-└── ASSETS-NEEDED.md    # Guide for required images/assets
+├── index.html              # Main HTML (Russian - default) 🇷🇺
+├── index-en.html           # English version 🇬🇧
+├── index-ru.html           # Russian version (alternative URL) 🇷🇺
+├── styles.css              # All styling and responsive design
+├── script.js               # Interactive functionality
+├── README.md               # Documentation
+├── ASSETS-NEEDED.md        # Guide for required images/assets
+├── TRANSLATION-GUIDE.md    # Multi-language support guide
+└── LICENSE                 # MIT License
 ```
 
 ## 🚀 Quick Start
@@ -44,6 +49,28 @@ A modern, responsive landing page template for plastering and construction busin
 6. **Deploy** to GitHub Pages (see deployment section below)
 
 > ⚠️ **Security Note**: Never commit sensitive information (API keys, private credentials, etc.) to your repository. All placeholder contact info in this template is clearly marked and should be replaced with your actual information only after customization.
+
+## 🌐 Multi-Language Support
+
+This template includes both **Russian** (default) and **English** versions:
+
+- **Russian** (default): `index.html` 🇷🇺
+- **English**: `index-en.html` 🇬🇧
+- **Russian** (alternative URL): `index-ru.html` 🇷🇺
+
+Language switcher buttons are included in the navigation menu for easy switching between languages. All versions share the same CSS and JavaScript files.
+
+### Adding More Languages
+
+To add another language, see the detailed [TRANSLATION-GUIDE.md](TRANSLATION-GUIDE.md) which includes:
+
+- Complete translation reference for English ↔ Russian
+- Step-by-step guide for adding new languages
+- Best practices for multi-language sites
+- Language code recommendations
+- Testing checklist
+
+> **Note**: The default language is Russian (`index.html`). Visitors will see Russian by default and can switch to English using the language switcher in the navigation menu.
 
 ## 🎨 Customization
 
@@ -103,6 +130,8 @@ git push -u origin main
 4. Under **Source**, select `main` branch and `/ (root)` folder
 5. Click **Save**
 6. Your site will be live at: `https://YOUR-USERNAME.github.io/YOUR-REPO-NAME`
+
+The default page will be in **Russian** (`index.html`). Visitors can switch to English (`index-en.html`) using the language switcher.
 
 ### Step 3: Custom Domain (Optional)
 
