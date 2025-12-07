@@ -6,12 +6,13 @@
 }
 
 :root {
-  /* PLACEHOLDER: Customize these colors based on your logo/brand */
-  --primary-color: #2c3e50;
-  --secondary-color: #3498db;
-  --accent-color: #e67e22;
-  --text-dark: #2c3e50;
-  --text-light: #7f8c8d;
+  /* Gypsos Brand Colors */
+  --primary-color: #4a4a4a;
+  --secondary-color: #6b6b6b;
+  --accent-color: #d4a826;
+  --accent-hover: #b8921f;
+  --text-dark: #333333;
+  --text-light: #6b6b6b;
   --bg-light: #f8f9fa;
   --white: #ffffff;
   --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -60,8 +61,10 @@ body {
 }
 
 .logo-img {
-  height: 50px;
+  height: 60px;
   width: auto;
+  max-width: 240px;
+  object-fit: contain;
 }
 
 .logo-text {
@@ -601,6 +604,14 @@ section {
   padding-top: 2rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-logo {
+  height: 50px;
+  width: auto;
+  max-width: 200px;
+  margin-bottom: 1rem;
+  object-fit: contain;
 }
 
 /* Back to Top Button */

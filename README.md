@@ -1,6 +1,6 @@
-# Professional Plastering Business - Landing Page Template
+# Gypsos Строй - Professional Plastering Business Landing Page
 
-A modern, responsive landing page template for plastering and construction businesses built with HTML, CSS, and JavaScript.
+A modern, responsive landing page for **Gypsos Строй** - professional plastering and construction services. Built with HTML, CSS, and JavaScript.
 
 ## ✨ Features
 
@@ -26,18 +26,29 @@ A modern, responsive landing page template for plastering and construction busin
 - **Testimonials**: Feature customer reviews
 - **Contact**: Multiple ways for customers to reach you
 
-## 📦 What's Included
+## 📦 Project Structure
 
 ```
-├── index.html              # Main HTML (Russian - default) 🇷🇺
-├── index-en.html           # English version 🇬🇧
-├── index-ru.html           # Russian version (alternative URL) 🇷🇺
-├── styles.css              # All styling and responsive design
-├── script.js               # Interactive functionality
-├── README.md               # Documentation
-├── ASSETS-NEEDED.md        # Guide for required images/assets
-├── TRANSLATION-GUIDE.md    # Multi-language support guide
-└── LICENSE                 # MIT License
+├── index.html                    # Main HTML (Russian - default) 🇷🇺
+├── index-en.html                 # English version 🇬🇧
+├── index-ru.html                 # Russian version (alternative URL) 🇷🇺
+├── css/
+│   └── styles.css                # All styling and responsive design
+├── js/
+│   └── script.js                 # Interactive functionality
+├── assets/
+│   ├── images/
+│   │   ├── logo/                 # Company logo files
+│   │   ├── hero/                 # Hero section background images
+│   │   ├── portfolio/            # Project gallery images
+│   │   └── testimonials/         # Customer photos
+│   └── icons/                    # Favicon and app icons
+├── docs/
+│   ├── ASSETS-NEEDED.md          # Guide for required images/assets
+│   ├── TRANSLATION-GUIDE.md      # Multi-language support guide
+│   └── landing-page-context.md   # Project context and requirements
+├── README.md                     # Documentation
+└── LICENSE                       # MIT License
 ```
 
 ## 🚀 Quick Start
@@ -45,8 +56,8 @@ A modern, responsive landing page template for plastering and construction busin
 1. **Clone or download** this repository
 2. **Open `index.html`** in your browser - the site works right away with online placeholder images!
 3. **Update contact information** in `index.html` (search for "PLACEHOLDER" comments)
-4. **Customize colors** in `styles.css` to match your brand
-5. **Replace placeholder images** with your own when ready (see ASSETS-NEEDED.md for details)
+4. **Customize colors** in `css/styles.css` to match your brand
+5. **Replace placeholder images** with your own when ready (see `docs/ASSETS-NEEDED.md` for details)
 6. **Deploy** to GitHub Pages (see deployment section below)
 
 > ⚠️ **Security Note**: Never commit sensitive information (API keys, private credentials, etc.) to your repository. All placeholder contact info in this template is clearly marked and should be replaced with your actual information only after customization.
@@ -63,7 +74,7 @@ Language switcher buttons are included in the navigation menu for easy switching
 
 ### Adding More Languages
 
-To add another language, see the detailed [TRANSLATION-GUIDE.md](TRANSLATION-GUIDE.md) which includes:
+To add another language, see the detailed [TRANSLATION-GUIDE.md](docs/TRANSLATION-GUIDE.md) which includes:
 
 - Complete translation reference for English ↔ Russian
 - Step-by-step guide for adding new languages
@@ -88,7 +99,7 @@ All placeholder content is marked with `<!-- PLACEHOLDER: -->` comments in the H
 
 ### Brand Colors
 
-Update the CSS variables in `styles.css` to match your brand:
+Update the CSS variables in `css/styles.css` to match your brand:
 
 ```css
 :root {
@@ -108,7 +119,7 @@ The contact form requires backend integration. Popular options:
 - [Netlify Forms](https://www.netlify.com/products/forms/) - If hosting on Netlify
 - Custom backend API
 
-Update the form handler in `script.js` to integrate with your chosen service.
+Update the form handler in `js/script.js` to integrate with your chosen service.
 
 ## 🌐 Deployment to GitHub Pages (Free Hosting)
 
@@ -175,7 +186,7 @@ If you have a custom domain, you can configure it in the GitHub Pages settings. 
 
 **Mobile menu not responding:**
 
-- Ensure `script.js` is loading correctly
+- Ensure `js/script.js` is loading correctly
 - Clear browser cache and hard refresh
 
 ## 📄 License
