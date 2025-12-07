@@ -146,8 +146,7 @@ body {
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-  /* PLACEHOLDER: Replace with your own hero-background.jpg */
-  background-image: url("https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1920&q=80");
+  background-image: url("../assets/images/hero/hero-main.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
