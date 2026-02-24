@@ -339,6 +339,59 @@ section {
   object-fit: cover;
 }
 
+/* SEO Content Section */
+.seo-content {
+  background: var(--bg-light);
+}
+
+.seo-content .section-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.seo-content-text {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.seo-content-text p {
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+/* FAQ Section */
+.faq {
+  background: var(--white);
+}
+
+.faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid #eee;
+  padding: 1.5rem 0;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-question {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.faq-answer {
+  color: var(--text-light);
+  line-height: 1.7;
+  margin: 0;
+}
+
 /* Portfolio Section */
 .portfolio {
   background: var(--bg-light);
